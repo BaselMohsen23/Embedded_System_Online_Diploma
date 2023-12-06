@@ -1,0 +1,15 @@
+/*
+ * Name        : Basics_Assignment_1
+ * Author      : Bassel Mohsen
+ * Description : Printing sentence to console
+
+ */
+
+#include <stdio.h>
+
+void main()
+{
+	printf("C Programming");
+
+}
+

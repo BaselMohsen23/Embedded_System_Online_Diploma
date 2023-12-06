@@ -1,0 +1,35 @@
+/*
+ ============================================================================
+ Name        : EX3
+ Author      : Basel Mohsen
+ Description : C Program to Find the largest number Among three numbers
+ ============================================================================
+ */
+
+#include<stdio.h>
+
+void main()
+{
+
+	float n1;
+	printf("Enter a number : \n");
+	fflush(stdout); fflush(stdin);
+	scanf("%f",&n1);
+
+
+	if( n1 >= 0)
+	{
+		if(n1==0)
+		{
+			printf("You entered a zero");
+		}else
+		printf("%.2f is Positive.",n1);
+	}else
+		printf("%.2f is Negative.",n1);
+	printf("%f is Positive.",n1);
+
+
+
+
+
+}

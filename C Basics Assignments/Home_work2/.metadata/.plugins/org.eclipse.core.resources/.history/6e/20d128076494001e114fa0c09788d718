@@ -1,0 +1,23 @@
+/*
+ * main.c
+ *
+ *  Created on: Dec 6, 2023
+ *      Author: basel
+ */
+
+
+#include<stdio.h>
+
+void main(){
+
+	int n ;
+	printf("Enter the number you want to check: ");
+	fflush(stdout); fflush(stdin);
+	scanf("%d",n);
+
+	if(n%2 == 0)
+	{
+		printf("is even");
+	}else
+		printf("is odd");
+}

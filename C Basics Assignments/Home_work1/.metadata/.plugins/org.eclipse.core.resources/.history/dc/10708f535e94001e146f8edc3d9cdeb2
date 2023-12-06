@@ -1,0 +1,26 @@
+/*
+ ============================================================================
+ Name        : EX_6
+ Author      : Basel Mohsen
+ Description : Write Source Code to Swap Two Numbers
+ ============================================================================
+ */
+
+#include <stdio.h>
+
+
+void main()
+{
+	float a, b;
+
+
+	printf("Enter value of a: ");
+	fflush(stdout); fflush(stdin);
+	scanf("%c",&a);
+
+
+	printf("ASCII value of %c = %d",a,a );
+
+
+
+}
