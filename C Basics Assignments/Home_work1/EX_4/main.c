@@ -1,6 +1,6 @@
 /*
  ============================================================================
- Name        : EX_4
+ Name        : EX_5
  Author      : Basel Mohsen
  Description : C Program to Multiply two Floating Point Numbers
  ============================================================================

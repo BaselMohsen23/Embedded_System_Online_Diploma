@@ -13,18 +13,19 @@ void main()
 {
 
 	char a,lowerCase;
-	printf("Enter an alphabet: ");
-	fflush(stdout); fflush(stdin);
-	scanf("%c",&a);
-	lowerCase = tolower(a);
 
 
+		printf("Enter an alphabet: ");
+		fflush(stdout); fflush(stdin);
+		scanf("%c",&a);
+		lowerCase = tolower(a);
 
-	if( lowerCase == 'i' || lowerCase == 'u' || lowerCase == 'a' || lowerCase == 'o' || lowerCase == 'e'  )
-	{
-		printf("%c is a vowel",a);
-	}else
-	{
-		printf("%c is Consonant ",a);
-	}
+		if( lowerCase == 'i' || lowerCase == 'u' || lowerCase == 'a' || lowerCase == 'o' || lowerCase == 'e'  )
+		{
+			printf("%c is a vowel\n",a);
+		}else
+		{
+			printf("%c is Consonant ",a);
+		}
+
 }
