@@ -23,8 +23,8 @@ void main()
 		for(j = 0 ; j<c ; j++)
 		{
 			printf("Enter elements a%d%d: ",i+1,j+1);
-				fflush(stdin); fflush(stdout);
-				scanf("%d",&a[i][j]);
+			fflush(stdin); fflush(stdout);
+			scanf("%d",&a[i][j]);
 		}
 	}
 
@@ -42,14 +42,14 @@ void main()
 
 	printf("transposed matrix:\n");
 
-		for(i = 0 ;i<c ; i++)
+	for(i = 0 ;i<c ; i++)
+	{
+		for(j = 0 ; j<r ; j++)
 		{
-			for(j = 0 ; j<r ; j++)
-			{
-				printf("%d\t",a[j][i]);
+			printf("%d\t",a[j][i]);
 
-			}
-			printf("\n");
 		}
+		printf("\n");
+	}
 
 }

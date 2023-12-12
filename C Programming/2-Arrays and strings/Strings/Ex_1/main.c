@@ -21,11 +21,11 @@ void main()
 	c = tolower(c);
 	for(int i = 0 ; i<strlen(a);i++)
 
-		{
-			a[i]=tolower(a[i]);
-			if(a[i] == c)
-				counter++;
-		}
+	{
+		a[i]=tolower(a[i]);
+		if(a[i] == c)
+			counter++;
+	}
 	printf("Frequency of e = %d",counter);
 
 

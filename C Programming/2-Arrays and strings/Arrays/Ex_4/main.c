@@ -12,7 +12,7 @@
 void main()
 {
 
-//using a temp variable
+	//using a temp variable
 	int a[100],l[100], i,element=6,location=2,number=5,temp;
 
 	printf("Enter number of elements : ");
@@ -34,13 +34,13 @@ void main()
 	fflush(stdin); fflush(stdout);
 	scanf("%d",&location);
 
-/*
- * For loop to insert the element by dividing the element into 3 parts:
- *
- * 		part1: the elements before the location of insertion.
- *		part2: The location of insertion.
- * 		part3: The elements after the location of insertion.
- * */
+	/*
+	 * For loop to insert the element by dividing the element into 3 parts:
+	 *
+	 * 		part1: the elements before the location of insertion.
+	 *		part2: The location of insertion.
+	 * 		part3: The elements after the location of insertion.
+	 * */
 
 	for(i = 0 ; i<=number ; i++)
 	{
@@ -110,7 +110,7 @@ void main()
 		//		printf("%d  ",l[i]);
 		//	}
 
-	*/
+	 */
 
 
 }

@@ -44,23 +44,23 @@ void main()
 
 	printf("Sum of the matrix: \n");
 
-		for(r =0;r<2;r++)
+	for(r =0;r<2;r++)
+	{
+		for(c =0;c<2;c++)
 		{
-			for(c =0;c<2;c++)
-			{
-				z[r][c]=a[r][c]+b[r][c];
-			}
-			printf("\n");
+			z[r][c]=a[r][c]+b[r][c];
 		}
+		printf("\n");
+	}
 
-//Printing the matrix after adding
-		for(r =0;r<2;r++)
-				{
-					for(c =0;c<2;c++)
-					{
-						printf("%.1f\t",z[r][c]);
-					}
-					printf("\n");
+	//Printing the matrix after adding
+	for(r =0;r<2;r++)
+	{
+		for(c =0;c<2;c++)
+		{
+			printf("%.1f\t",z[r][c]);
+		}
+		printf("\n");
 
-				}
+	}
 }
