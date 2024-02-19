@@ -4,13 +4,11 @@
  *  Created on: Jan 23, 2024
  *      Author: basel
  */
-
+#include <stdint.h>
+#include <stdbool.h>
 
 #ifndef PLATFORM_TYPES_H_
 #define PLATFORM_TYPES_H_
-
-#include <stdint.h>
-#include <stdbool.h>
 
 typedef _Bool					boolean;
 typedef signed char				sint8;
